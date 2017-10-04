@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.johnberry.jberryassignment3.MainActivity">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="201dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="135dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:text="NEW ITEM"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="210dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:text="NEW ORDER"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="35dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="137dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="35dp"
+        android:text="Item:"
+        android:textAlignment="viewStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="139dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="35dp"
+        android:text="Quantity:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="35dp"
+        android:text="Unit Price:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="TOTAL"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="171dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+</android.support.constraint.ConstraintLayout>
