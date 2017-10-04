@@ -7,17 +7,17 @@
     tools:context="com.example.johnberry.jberryassignment3.MainActivity">
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/priceField"
         android:layout_width="170dp"
         android:layout_height="33dp"
+        android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteY="201dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="201dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/newItemButton"
         android:layout_width="135dp"
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
@@ -26,7 +26,7 @@
         tools:layout_editor_absoluteX="210dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/newOrderButton"
         android:layout_width="135dp"
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
@@ -63,7 +63,7 @@
         tools:layout_editor_absoluteY="201dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/totalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
@@ -72,7 +72,7 @@
         tools:layout_editor_absoluteY="255dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/itemField"
         android:layout_width="171dp"
         android:layout_height="36dp"
         android:layout_marginRight="16dp"
@@ -82,12 +82,22 @@
         tools:layout_editor_absoluteY="95dp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/quantityField"
         android:layout_width="170dp"
         android:layout_height="33dp"
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="198dp"
         tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/orderSummary"
+        android:layout_width="331dp"
+        android:layout_height="168dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="316dp" />
 
 </android.support.constraint.ConstraintLayout>
